@@ -8,7 +8,6 @@ bot_Key = '<bot_id>''
 my_id = '<group_id>'
 bot_api = 'https://api.telegram.org/bot' + bot_Key + '/sendmessage?chat_id=' + my_id + '&text='
 
-<<<<<<< HEAD
 presentday = datetime.now()
 presentday_formatted = presentday.strftime('%d-%m-%Y')
 nextday = presentday + timedelta(1)
@@ -16,10 +15,6 @@ nextday_formatted = nextday.strftime('%d-%m-%Y')
 
 URL_1 = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=302&date='+presentday_formatted
 URL_2 = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=302&date='+nextday_formatted
-=======
-URL_1 = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=302&date=07-07-2021'
-URL_2 = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=302&date=08-07-2021'
->>>>>>> main
 
 
 pin = [676306, 676305, 676501, 676503]
